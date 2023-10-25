@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function page() {
+export default function firstPost() {
   return (
     <div>
-      <h1>LANDING PAGE</h1>
+      <h1>First Pop</h1>
     </div>
   )
 }
