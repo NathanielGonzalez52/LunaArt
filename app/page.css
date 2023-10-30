@@ -1,8 +1,21 @@
-/* .pic-container {
-    max-height: 50rem;
-    background-color: #000000;
-} */
+.slider-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.slider {
+    margin-top: 0.1%;
+    width: 85%;
+}
+
+.pic-container {
+    height: 100%;
+}
 
 .pic {
     width: 100%;
+
 }

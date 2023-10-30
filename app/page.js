@@ -4,11 +4,13 @@ import "./page.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Navbar from "./navbar";
 
 export default function page() {
+
     const settings = {
-        dots: true,
+        arrows: false,
+        dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -19,7 +21,10 @@ export default function page() {
         adaptiveHeight: true
       };
   return (
-    <div className ="pic-container">
+    <>
+    <Navbar/>
+    <div className="slider-cont">
+      <div className ="slider">
         <Slider {...settings}>
             <div className ="pic-container">
               <img className = "pic" alt="art" src="../luna_images/aang.jpg"></img>
@@ -40,7 +45,9 @@ export default function page() {
               <img className = "pic" alt="art" src="../luna_images/white_dragon.jpg"></img>
             </div>
         </Slider>
+      </div>
     </div>
+    </>
   )
 }
 
