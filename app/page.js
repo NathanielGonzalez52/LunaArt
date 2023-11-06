@@ -8,7 +8,7 @@ import Navbar from "./navbar";
 import Shop from "./shop";
 import About from "./about";
 import Update from "./update";
-
+import Socials from "./socials";
 export default function page() {
 
     const settings = {
@@ -50,6 +50,7 @@ export default function page() {
         </Slider>
       </div>
     </div>
+    <Socials/>
     <Update/>
     <Shop/>
     <About/>

@@ -79,6 +79,7 @@ body {
 
 .button {
     font-family: "Dancing Script", cursive;
+    font-weight: bold;
     display: flex;
     align-items: center;
   /* new stuff */
@@ -88,8 +89,7 @@ body {
     display:inline-block;
     cursor:pointer;
     color:#000000;
-    font-family:Arial;
-    font-size:17px;
+    font-size: 97%;
     padding:16px 31px;
     text-decoration:none;
     text-shadow:0px 1px 0px #2b665e;

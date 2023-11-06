@@ -4,7 +4,7 @@ import "./update.css";
 export default function update() {
   return (
     <form className="container">
-      <h1 className="contact-wel">Get in touch</h1>
+      <h1 className="contact-wel">Never Miss an Update or Exclusive!</h1>
       <div className="email block">
         <label htmlFor="frm-email">Email</label>
         <input
@@ -15,7 +15,7 @@ export default function update() {
           required
         />
       </div>
-      <div className="block phone">
+      {/* <div className="block phone">
         <label htmlFor="frm-phone">Phone</label>
         <input
           id="frm-phone"
@@ -50,7 +50,7 @@ export default function update() {
       <div className="message block">
         <label htmlFor="frm-message">Message</label>
         <textarea id="frm-message" rows="6" name="message"></textarea>
-      </div>
+      </div> */}
       <div className="button block">
         <a type="submit">Submit</a>
       </div>
