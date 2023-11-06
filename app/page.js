@@ -5,6 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./navbar";
+import Shop from "./shop";
+import About from "./about";
+import Update from "./update";
 
 export default function page() {
 
@@ -18,7 +21,7 @@ export default function page() {
         speed: 3000,
         autoplaySpeed: 6000,
         fade: true,
-        adaptiveHeight: true
+        adaptiveHeight: false
       };
   return (
     <>
@@ -27,7 +30,7 @@ export default function page() {
       <div className ="slider">
         <Slider {...settings}>
             <div className ="pic-container">
-              <img className = "pic" alt="art" src="../luna_images/aang.jpg"></img>
+              <img className = "pic" alt="art" src="../luna_images/blaziken.jpg"></img>
             </div>
             <div className ="pic-container">
               <img className = "pic" alt="art" src="../luna_images/arcanine.jpg"></img>
@@ -47,6 +50,9 @@ export default function page() {
         </Slider>
       </div>
     </div>
+    <Update/>
+    <Shop/>
+    <About/>
     </>
   )
 }

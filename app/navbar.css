@@ -23,6 +23,7 @@
   }
   
   .navbar-container {
+
     /* background-color: yellow; */
     display: flex;
     justify-content: left;
@@ -50,6 +51,7 @@
   } */
   
   .nav-menu {
+
     /* background-color: blue; */
     display: grid;
     grid-template-columns: repeat(4, auto);

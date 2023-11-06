@@ -32,7 +32,12 @@ export default function navbar() {
       </li>
       <li className='nav-item'>
         <Link href="">
-          Menu
+          Shop
+        </Link>
+      </li>
+      <li className='nav-item'>
+        <Link href="">
+          About
         </Link>
       </li>
 

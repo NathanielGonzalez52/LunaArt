@@ -1,0 +1,23 @@
+.shop-greet {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.merch-cont {
+}
+
+.merch-pics {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product {
+    width: 60%;
+    height: 100%;
+    padding: 3%;
+}
+

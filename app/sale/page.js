@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function firstPost() {
+export default function Sale() {
   return (
     <div>
-      <h1>First Pop</h1>
+      <h1>HELLO</h1>
     </div>
   )
 }
