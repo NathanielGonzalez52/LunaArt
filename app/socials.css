@@ -3,19 +3,21 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin-top: 2rem;
     background-color: #FFFFFF;
     color: #000;
     font-size: 2.1rem;
+    /* background-color: blue; */
 }
 
 .socials-wel {
+    padding-top: 2rem;
+    line-height: 0.2;
     display: flex;
     font-family: "Dancing Script", cursive;
     font-size: 1.3rem;
-    padding-top: 1.2rem;
     align-content: center;
     justify-content: center;
+    /* background-color: red; */
 }
 
 

@@ -4,12 +4,16 @@ import "./about.css";
 export default function about() {
   return (
     <div className="about">
-      <h1>About</h1>
+      <div className="about-wel">
+        <h1>About</h1>
+      </div>
       <img className="about-pic" alt="Aang" src="../luna_images/aang.jpg"></img>
       <p>Thank you for visiting my art! 
       I am a full-time independent illustrator and designer. 
       I also freelance for publishing, animation, and games.</p>
-      <h2>Things You May Know Me From...</h2>
+      <div className="about-wel">
+        <h2>Things You May Know Me From...</h2>
+      </div>
       <p>I was a background painter at Disney TV Animation from 2015-2018, 
       and I have done illustration and visual development work for clients/projects 
       that include Dreamworks TV, Disney Publishing, Lucasfilm Press, 
@@ -20,9 +24,9 @@ export default function about() {
       are fraudulent and infringing on my copyright, in violation of the law. I do 
       not sell my work on any other websites besides ones 
       linked under my own name. </p>
-      <h2>Let's Connect!</h2>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-square-instagram"></i>
+      <div className="about-wel">
+        <h2>Let's Connect!</h2>
+      </div>
       <p>Feel free to email me for professional freelance inquiries only, 
       at fionahsiehart@gmail.com</p>
       <p>For shop-related inquiries and questions about your order, 
@@ -33,6 +37,10 @@ export default function about() {
       represented by my agent, Shannon Associates, on their website. </p>
       <p>All other accounts claiming to be me are impersonators/fake accounts 
       that are not authorized by me or any agent representing me.</p>
+      <div className="about-wel">
+        <h2>More Questions?</h2>
+        <a className="faq">See our FAQs</a>
+      </div>
 
     </div>
   )

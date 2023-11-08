@@ -13,7 +13,7 @@ export default function shop() {
             <img alt='merch' className="product" src="../luna_images/arceus.jpg"></img>
             <img alt='merch' className="product" src="../luna_images/rayquaza.jpg"></img>
         </div>
-      
+        <a className="to-shop">Visit our store</a>
     </div>
     </>
   )

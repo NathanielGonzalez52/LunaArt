@@ -1,4 +1,5 @@
 .shop-greet {
+    font-family: "Dancing Script", cursive;
     padding-top: 5%;
     text-align: center;
 }
@@ -20,4 +21,47 @@
     height: 100%;
     padding: 3%;
 }
+
+.to-shop {
+    font-weight: 600;
+    line-height: 0;
+    font-family: "Dancing Script", cursive;
+    border-radius: 4px;
+    background-color: #FFF;
+    border: none;
+    color: #b59308;
+    text-align: center;
+    font-size: 2rem;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+  }
+  
+.to-shop {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.to-shop:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.to-shop:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+.to-shop:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
 
