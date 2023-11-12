@@ -29,7 +29,7 @@ export default function Qa() {
         <p>Orders are canceled if the order has not been 
         shipped out.</p>
     </div>
-    <div className="faq">
+    <div className="questions">
     <h3>Q: Are you currently taking commissions / 
     custom paintings / tattoo designs?</h3>
     <h3>Unfortunately, I am not currently doing commissions 

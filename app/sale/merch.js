@@ -1,6 +1,6 @@
 const merch = [
     {
-        name: "Animal Crossing Print",
+        name: "Animal",
         imgURL: "../luna_images/animal_cross.jpg",
         price: "TBD"
     },

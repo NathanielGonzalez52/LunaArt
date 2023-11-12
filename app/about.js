@@ -39,7 +39,7 @@ export default function about() {
       that are not authorized by me or any agent representing me.</p>
       <div className="about-wel">
         <h2>More Questions?</h2>
-        <a className="faq">See our FAQs</a>
+        <a href="/qa" className="faq">See our FAQs</a>
       </div>
 
     </div>
