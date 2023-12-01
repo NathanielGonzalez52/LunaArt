@@ -1,7 +1,7 @@
 .socials {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
     background-color: #FFFFFF;
     color: #000;
@@ -11,7 +11,7 @@
 
 .socials-wel {
     padding-top: 2rem;
-    line-height: 0.2;
+    /* line-height: 0.95; */
     display: flex;
     font-family: "Dancing Script", cursive;
     font-size: 1.3rem;
@@ -20,9 +20,15 @@
     /* background-color: red; */
 }
 
+.social-link {
+    cursor: pointer;
+    /* background-color: red; */
+}
+
 
 .fa-x-twitter{
-    padding-right: 3rem;
-    padding-left: 3rem;
-
+    /* margin-right: 3rem;
+    margin-left: 3rem; */
 }
+
+

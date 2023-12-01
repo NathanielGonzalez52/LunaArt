@@ -50,8 +50,8 @@ export default function page() {
         </Slider>
       </div>
     </div>
-    <Socials/>
     <Update/>
+    <Socials/>
     <Shop/>
     <About/>
     </>

@@ -8,9 +8,9 @@ export default function socials() {
         <h1>Follow Me!</h1>
     </div>
     <div className="socials">
-      <i class="fa-brands fa-square-instagram"></i>
-      <i class="fa-brands fa-x-twitter"></i>
-      <i class="fa-brands fa-patreon"></i>
+      <a className="social-link"><i class="fa-brands fa-square-instagram"></i></a>
+      <a className="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+      <a className="social-link"><i class="fa-brands fa-patreon"></i></a>
     </div>
     </>
   )
