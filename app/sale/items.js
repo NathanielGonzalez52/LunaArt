@@ -8,6 +8,7 @@ export default function items(props) {
         <div className="descriptor">
           <p>{props.price}</p>
         </div>
+        <button type="submit" className="to-cart">ADD TO CART</button>
       </div>
   )
 }

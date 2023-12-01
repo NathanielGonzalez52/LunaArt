@@ -2,11 +2,14 @@ import React from 'react';
 import Merch from "./merch.js";
 import Items from "./items";
 import "./page.css";
+import Navbar from "./navbar";
 
 export default function Sale() {
   return (
-    <div>
-      <h1>Not Sure What to Get?</h1>
+    <>
+    <Navbar/>
+    <div className="products-page">
+      <h1 className="products-header">Original Prints</h1>
       <div className="product-display">
         {Merch.map((product, index) => {
           return (
@@ -23,4 +26,5 @@ export default function Sale() {
       </div>
     </div>
   )
+  </>
 };

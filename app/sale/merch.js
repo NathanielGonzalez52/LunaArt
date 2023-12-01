@@ -1,16 +1,16 @@
 const merch = [
     {
-        name: "Animal",
+        name: "Animal Crossing",
         imgURL: "../luna_images/animal_cross.jpg",
         price: "TBD"
     },
     {
-        name: "Blastoise Print",
+        name: "Blastoise ",
         imgURL: "../luna_images/blastoise.jpg",
         price: "TBD"
     },
     {
-        name: "Ho-Oh Print",
+        name: "Ho-Oh ",
         imgURL: "../luna_images/ho-oh.jpg",
         price: "TBD"
     },
@@ -20,33 +20,33 @@ const merch = [
         price: "TBD"
     },
     {
-        name: "Charizard Print",
+        name: "Charizard ",
         imgURL: "../luna_images/charizard.jpg",
         price: "TBD"
     },
     {
-        name: "Charizard Print",
-        imgURL: "../luna_images/charizard.jpg",
+        name: "Feraligator ",
+        imgURL: "../luna_images/feraligator.jpg",
         price: "TBD"
     },
     {
-        name: "Charizard Print",
-        imgURL: "../luna_images/charizard.jpg",
+        name: "Gyarados ",
+        imgURL: "../luna_images/gyarados_color.jpg",
         price: "TBD"
     },
     {
-        name: "Charizard Print",
-        imgURL: "../luna_images/charizard.jpg",
+        name: "Digimon ",
+        imgURL: "../luna_images/digimon.jpg",
         price: "TBD"
     },
     {
-        name: "Charizard Print",
-        imgURL: "../luna_images/charizard.jpg",
+        name: "Dark Warrior ",
+        imgURL: "../luna_images/dark_horse.jpg",
         price: "TBD"
     },
     {
-        name: "Charizard Print",
-        imgURL: "../luna_images/charizard.jpg",
+        name: "Meganium ",
+        imgURL: "../luna_images/meganium.jpg",
         price: "TBD"
     }
 ]

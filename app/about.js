@@ -3,7 +3,7 @@ import "./about.css";
 
 export default function about() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-wel">
         <h1>About</h1>
       </div>
