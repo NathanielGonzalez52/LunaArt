@@ -8,7 +8,7 @@ import Navbar from "./navbar";
 import Shop from "./shop";
 import Update from "./update";
 import Footer from "./footer";
-
+import Fade from 'react-reveal/Fade';
 
 export default function page() {
 
@@ -27,33 +27,41 @@ export default function page() {
   return (
     <>
     <Navbar/>
-    <div className="slider-cont">
-      <div className ="slider">
-        <Slider {...settings}>
-            <div className ="pic-container">
-              <img className = "pic" alt="art" src="../luna_images/blaziken.jpg"></img>
-            </div>
-            <div className ="pic-container">
-              <img className = "pic" alt="art" src="../luna_images/arcanine.jpg"></img>
-            </div>
-            <div className ="pic-container">
-              <img className = "pic" alt="art" src="../luna_images/man_tiger.jpg"></img>
-            </div>
-            <div className ="pic-container">
-              <img className = "pic" alt="art" src="../luna_images/mythical_forest.jpg"></img>
-            </div>
-            <div className ="pic-container">
-              <img className = "pic" alt="art" src="../luna_images/techno_girl.jpeg"></img>
-            </div>
-            <div className ="pic-container">
-              <img className = "pic" alt="art" src="../luna_images/white_dragon.jpg"></img>
-            </div>
-        </Slider>
+    <Fade left duration={2700}>
+      <div className="slider-cont">
+        <div className ="slider">
+          <Slider {...settings}>
+              <div className ="pic-container">
+                <img className = "pic" alt="art" src="../luna_images/blaziken.jpg"></img>
+              </div>
+              <div className ="pic-container">
+                <img className = "pic" alt="art" src="../luna_images/arcanine.jpg"></img>
+              </div>
+              <div className ="pic-container">
+                <img className = "pic" alt="art" src="../luna_images/man_tiger.jpg"></img>
+              </div>
+              <div className ="pic-container">
+                <img className = "pic" alt="art" src="../luna_images/mythical_forest.jpg"></img>
+              </div>
+              <div className ="pic-container">
+                <img className = "pic" alt="art" src="../luna_images/techno_girl.jpeg"></img>
+              </div>
+              <div className ="pic-container">
+                <img className = "pic" alt="art" src="../luna_images/white_dragon.jpg"></img>
+              </div>
+          </Slider>
+        </div>
       </div>
-    </div>
-    <Update/>
-    <Shop/>
-    <Footer />
+      </Fade>
+    <Fade right duration={2700}>
+      <Update/>
+    </Fade>
+    <Fade left duration={2700}>
+      <Shop/>
+    </Fade>
+    <Fade right duration={2700}>
+      <Footer />
+    </Fade>
     </>
   )
 }

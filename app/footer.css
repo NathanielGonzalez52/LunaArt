@@ -1,5 +1,7 @@
 .footer {
+    color: #FFF;
     background-color: #1b2430;
+    font-family: "Dancing Script", cursive;
 }
 
 .logo-f {
@@ -12,10 +14,34 @@
     flex-direction: column;
 }
 
+.copyright {
+    color: rgb(145, 145, 145);
+    text-align: center;
+}
+
 .footer path {
     fill: #FFF;
 }
 
 .social-f {
     padding: 1.2rem 0rem;
+}
+
+.closing-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: horizontal;
+    font-size: 1.3rem;
+    padding-bottom: 2.5rem;
+}
+
+.f-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+} 
+
+.shop-f {
+    margin: 0rem 0.5rem;
 }
