@@ -5,7 +5,13 @@
 }
 
 path {
-    fill: red;
+    fill: #FFF;
+}
+
+.nav-head {
+    position: sticky;
+    top:0;
+    z-index: +1;
 }
 
 nav {
@@ -15,7 +21,6 @@ nav {
     background: #1b2430;
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06); 
-
 }
 
 #navbar {
@@ -49,7 +54,7 @@ nav {
     content: "";
     width: 30%;
     height: 2px;
-    background: 17cf97;
+    background: #17cf97;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -76,7 +81,7 @@ nav {
         right: -300px;
         width: 300px;
         height: 100vh;
-        background: #2a3239;
+        background: #1b2430;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;

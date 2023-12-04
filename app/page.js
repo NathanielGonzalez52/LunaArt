@@ -6,9 +6,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./navbar";
 import Shop from "./shop";
-import About from "./about";
 import Update from "./update";
-import Socials from "./socials";
+import Footer from "./footer";
+
+
 export default function page() {
 
     const settings = {
@@ -51,9 +52,8 @@ export default function page() {
       </div>
     </div>
     <Update/>
-    <Socials/>
     <Shop/>
-    <About/>
+    <Footer />
     </>
   )
 }

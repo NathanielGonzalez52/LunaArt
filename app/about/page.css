@@ -1,0 +1,56 @@
+.about {
+    font-family: "Dancing Script", cursive;
+}
+
+.about-wel {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.about-pic {
+    width: 100%;
+}
+
+.faq {
+    font-weight: 600;
+    line-height: 0;
+    font-family: "Dancing Script", cursive;
+    border-radius: 4px;
+    background-color: #FFF;
+    border: none;
+    color: #b59308;
+    text-align: center;
+    font-size: 2rem;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+  }
+  
+.faq {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.faq:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 0px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.faq:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+.faq:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+

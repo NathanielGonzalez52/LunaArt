@@ -2,7 +2,8 @@ import React from 'react';
 import Merch from "./merch.js";
 import Items from "./items";
 import "./page.css";
-import Navbar from "./navbar";
+import Navbar from "../navbar";
+import Footer from "../footer";
 
 export default function Sale() {
   return (
@@ -25,6 +26,7 @@ export default function Sale() {
       }
       </div>
     </div>
-  )
+    <Footer />
   </>
-};
+  )
+}
