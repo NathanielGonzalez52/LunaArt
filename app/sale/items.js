@@ -1,4 +1,5 @@
 import React from 'react';
+import ModalImage from "react-modal-image";
 
 export default function items(props) {
   return (
