@@ -10,13 +10,17 @@ export default function About() {
     <Navbar />
     <div id="about" className="about">
       <div className="about-wel">
-        <h1>About</h1>
+        <h1 className="top-about">About Me</h1>
       </div>
-      <img className="about-pic" alt="Aang" src="../luna_images/aang.jpg"></img>
-      <p>Thank you for visiting my art! 
-      I am a full-time independent illustrator and designer. 
+      <div className="about-images">
+        <img className="about-pic" alt="mews" src="../luna_images/latios.jpg"></img>
+        <img className="about-pic" alt="groudon" src="../luna_images/groudon.jpg"></img>
+        <img className="about-pic" alt="latias" src="../luna_images/latias.jpg"></img>
+      </div>
+      <h1 className='about-header title'>Who Am I?</h1>
+      <p>I am a full-time independent illustrator and designer. 
       I also freelance for publishing, animation, and games.</p>
-      <div className="about-wel">
+      <div className="about-wel title">
         <h2>Things You May Know Me From...</h2>
       </div>
       <p>I was a background painter at Disney TV Animation from 2015-2018, 
@@ -29,7 +33,7 @@ export default function About() {
       are fraudulent and infringing on my copyright, in violation of the law. I do 
       not sell my work on any other websites besides ones 
       linked under my own name. </p>
-      <div className="about-wel">
+      <div className="about-wel title">
         <h2>Let's Connect!</h2>
       </div>
       <p>Feel free to email me for professional freelance inquiries only, 
@@ -43,7 +47,7 @@ export default function About() {
       <p>All other accounts claiming to be me are impersonators/fake accounts 
       that are not authorized by me or any agent representing me.</p>
       <div className="about-wel">
-        <h2>More Questions?</h2>
+        <h2 className="ques">More Questions?</h2>
         <a href="/qa" className="faq">See our FAQs</a>
       </div>
 

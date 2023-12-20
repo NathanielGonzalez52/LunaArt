@@ -9,16 +9,17 @@ import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 
 export default function Sale() {
+
   return (
     <>
     <Navbar/>
 
-    <Fade bottom cascade duration={2000}>
+    <Fade top duration={1200}>
     <div className="products-page">
     
-    <Flip left delay= {2000} duration={2000}>
+    <Fade left delay={0} duration={1200}>
       <h1 className="products-header">Original Prints</h1>
-    </Flip>
+    </Fade>
       <div className="product-display">
         {Merch.map((product, index) => {
           return (
@@ -35,9 +36,9 @@ export default function Sale() {
       </div>
     </div>
     </Fade>
-    <Fade bottom duration={1500}>
+    {/* <Fade bottom duration={1500}> */}
       <Footer />
-    </Fade>
+    {/* </Fade> */}
   </>
   )
 }

@@ -27,7 +27,7 @@ export default function page() {
   return (
     <>
     <Navbar/>
-    <Fade left duration={2000}>
+    <Fade left duration={1200}>
       <div className="slider-cont">
         <div className ="slider">
           <Slider {...settings}>
@@ -53,15 +53,15 @@ export default function page() {
         </div>
       </div>
       </Fade>
-    <Fade right duration={2000}>
+    <Fade right duration={1200}>
       <Update/>
     </Fade>
-    <Fade left duration={2000}>
+    <Fade left duration={1200}>
       <Shop/>
     </Fade>
-    <Fade top duration={2000}>
+    {/* <Fade right duration={1200}> */}
       <Footer />
-    </Fade>
+    {/* </Fade> */}
     </>
   )
 }

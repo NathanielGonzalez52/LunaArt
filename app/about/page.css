@@ -1,14 +1,50 @@
+.top-about {
+  padding: 2.5rem 0rem 1.5rem 0rem;
+}
+
+.title {
+  text-decoration: underline;
+  padding: 1rem 0rem;
+}
+
 .about {
     font-family: "Dancing Script", cursive;
+    text-align: center;
 }
+
+.about-header {
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
 
 .about-wel {
     text-align: center;
     font-size: 1.4rem;
 }
 
+.about-images {
+  padding: 1rem 0rem;
+  /* justify-content: space-around; */
+  display: flex;
+  flex-direction: row;
+}
+
 .about-pic {
-    width: 100%;
+  width: 33%;
+}
+
+/* .about-pic {
+  padding: 1rem 0rem;
+  width: 100%;
+} */
+
+.ques {
+  padding: 1rem 0rem;
 }
 
 .faq {
@@ -18,7 +54,7 @@
     border-radius: 4px;
     background-color: #FFF;
     border: none;
-    color: #b59308;
+    color: #000;
     text-align: center;
     font-size: 2rem;
     width: 220px;
