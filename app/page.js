@@ -31,24 +31,25 @@ export default function page() {
       <div className="slider-cont">
         <div className ="slider">
           <Slider {...settings}>
-              <div className ="pic-container">
-                <img className = "pic" alt="art" src="../luna_images/blaziken.jpg"></img>
+              <div className="pic-container">
+                <img className="pic" alt="art" src="../luna_images/blaziken.jpg"></img>
               </div>
-              <div className ="pic-container">
-                <img className = "pic" alt="art" src="../luna_images/arcanine.jpg"></img>
+              <div className="pic-container">
+                <img className="pic" alt="art" src="../luna_images/arcanine.jpg"></img>
               </div>
-              <div className ="pic-container">
-                <img className = "pic" alt="art" src="../luna_images/man_tiger.jpg"></img>
+              <div className="pic-container">
+                <img className="pic" alt="art" src="../luna_images/man_tiger.jpg"></img>
               </div>
-              <div className ="pic-container">
-                <img className = "pic" alt="art" src="../luna_images/mythical_forest.jpg"></img>
+              <div className="pic-container">
+                <img className="pic" alt="art" src="../luna_images/mythical_forest.jpg"></img>
               </div>
-              <div className ="pic-container">
-                <img className = "pic" alt="art" src="../luna_images/techno_girl.jpeg"></img>
+              <div className="pic-container">
+                <img className="pic" alt="art" src="../luna_images/techno_girl.jpeg"></img>
               </div>
-              <div className ="pic-container">
-                <img className = "pic" alt="art" src="../luna_images/white_dragon.jpg"></img>
+              <div className="pic-container">
+                <img className="pic" alt="art" src="../luna_images/white_dragon.jpg"></img>
               </div>
+              
           </Slider>
         </div>
       </div>
