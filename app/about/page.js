@@ -11,7 +11,7 @@ export default function About() {
   return (
     <>
     <Navbar />
-    <Fade>
+    <Fade duration={1200}>
       <div id="about" className="about">
         <div className="about-wel">
           <h1 className="top-about">About Me</h1>

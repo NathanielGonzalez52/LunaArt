@@ -2,6 +2,17 @@
     padding: 2.5rem 2.5rem;
 }
 
+.terms-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.fa-solid {
+    padding: 1rem 0rem;
+}
+
 .terms-header {
     text-decoration: underline;
 }
@@ -19,6 +30,13 @@ li {
 /* .questions {
     padding: 5rem 5rem;
 } */
+
+.qa-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
 
 .ques {
     font-family: "Dancing Script", cursive;

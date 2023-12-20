@@ -10,11 +10,17 @@ export default function Qa() {
   return (
     <>
     <Navbar/>
-    <Fade>
+    <Fade duration={1200}>
+  
       <div className="terms">
 
         <div className="faqs">
+          <div className="terms-container">
             <h1 className="terms-header title">Terms and Conditions</h1>
+            &nbsp;
+            &nbsp;
+            <h1><i class="fa-solid fa-file-signature"></i></h1>
+          </div>
             <p>Terms and Conditions are accepeted 
             automatically when a purchase is made.
             </p>
@@ -39,7 +45,12 @@ export default function Qa() {
             shipped out.</li>
         </div>
         <div className="questions">
-          <h1 className="title ans-ques">Frequently Asked Questions</h1>
+          <div className="qa-container">
+            <h1 className="title ans-ques">Frequently Asked Questions</h1>
+            &nbsp;
+            &nbsp;
+            <h1><i class="fa-solid fa-comments"></i></h1>
+          </div>
           <h2 className="ques">Q: Are you currently taking commissions / 
           custom paintings / tattoo designs?</h2>
           <li className="ans">A: Unfortunately, I am not currently doing commissions 
