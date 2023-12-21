@@ -46,3 +46,13 @@ li {
 .ans-ques {
     text-decoration: underline;
 }
+
+@media screen and (min-width:700px) {
+
+    .terms {
+        text-align: center;
+        justify-content: center;
+        padding: 2.5rem 20rem 3.5rem;
+    }
+
+}
