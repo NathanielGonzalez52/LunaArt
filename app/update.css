@@ -167,19 +167,21 @@ textarea {
 
   .container input {
     font-size: 1.5rem;
-    margin: 10px 0 10px 0px;
+    /* margin: 10px 0 10px 0px;
     border-color: rgb(31, 28, 28);
     padding: 10px;
     border-radius: 5px;
-    background-color: #e8f0fe;
+    background-color: #e8f0fe; */
   }
+
   
-  .container textarea {
+  
+  /* .container textarea {
     margin: 10px 0 10px 0px;
     padding: 5px;
     border-color: rgb(31, 28, 28);
     border-radius: 5px;
     background-color: #e8f0fe;
     font-size: 40px;
-  }
+  } */
 }
