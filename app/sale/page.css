@@ -58,7 +58,7 @@
     grid-gap: 2rem;
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 700px) {
 
     .product-display {
         display: grid;
@@ -68,16 +68,20 @@
         width: 100%;
         height: 100%;
         background-color:#fff;
-        display:grid;
         grid-template-columns: 200px 200px;
         grid-row: auto auto;
-        grid-column-gap: 1.4rem;
-        grid-row-gap: 1.4rem;
-        width: 100%;
+        grid-column-gap: 11.0rem;
+        grid-row-gap: 5.0rem;
         justify-content: center;
         text-align: center;
         padding-bottom: 2rem;
     }
+
+    .display {
+        width: 120%;
+    }
+
+
       
   }
   
