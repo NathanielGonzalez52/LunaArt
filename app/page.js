@@ -41,7 +41,7 @@ export default function page() {
                 <img className="pic" alt="art" src="../luna_images/man_tiger.jpg"></img>
               </div>
               <div className="pic-container">
-                <img className="pic" alt="art" src="../luna_images/mythical_forest.jpg"></img>
+                <img className="pic" alt="art" src="../luna_images/anubis.jpg"></img>
               </div>
               <div className="pic-container">
                 <img className="pic" alt="art" src="../luna_images/techno_girl.jpeg"></img>

@@ -1,10 +1,8 @@
 .shop-greet {
     font-family: "Dancing Script", cursive;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     text-align: center;
-}
-
-.merch-cont {
+    /* padding: none; */
 }
 
 .merch-pics {
@@ -14,11 +12,12 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    height: 90%;
 }
 
 .product {
     width: 60%;
-    height: 100%;
+    max-height: 100%;
     padding: 3%;
 }
 
@@ -73,3 +72,10 @@
     right: 10px;
   }
 
+  @media screen and (min-width:700px) {
+
+    .product {
+      width: 100%;
+    }
+    
+  }
