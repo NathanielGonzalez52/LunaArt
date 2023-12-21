@@ -157,12 +157,17 @@ textarea {
 
 @media screen and (min-width:700px) {
 
+  .container {
+    padding-top: 1.5rem;
+  }
+
   .contact-wel {
     font-size: 2.0rem;
   }
 
   .block {
     font-size: 1.1rem;
+    padding: 1rem 0rem;
   }
 
   .container input {

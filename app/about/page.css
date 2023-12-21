@@ -96,4 +96,10 @@
     right: 10px;
   }
 
+@media screen and (min-width: 700px) {
+  .about-text {
+    padding: 0rem 6.0rem;
+  }
+}
+
 

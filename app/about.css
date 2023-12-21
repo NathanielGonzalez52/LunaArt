@@ -54,3 +54,11 @@
   }
 
 
+  @media screen and (min-width:700px) {
+
+    .about-wel{
+      background-color: red;
+      padding: 2.5rem 4rem;
+      color: blue;
+    }
+  }
